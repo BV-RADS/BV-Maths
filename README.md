@@ -48,12 +48,23 @@ conda activate BV-RADS
 
 ## Usage
 
-To use BVmaths, run the script with the desired operation and operands. Here are some examples:
+To use BVmaths, run the script with the desired operation and operands. 
 
-```
-python BVmaths.py inputImage -mul 2 outputImage
-python BVmaths.py inputImage -thr 2.0 -uthr 3.5 -bin outputImage
-```
+´´´    
+    Usage: python BVmaths.py <image.nii.gz> [operations and inputs] <out.nii.gz>
+
+    Operations:
+    -mul   : Multiply by following input (image or number)
+    -div   : Divide by following input (image or number)
+    -add   : Add following input (image or number)
+    -sub   : Subtract following input (image or number)
+    -bin   : Binarize image (set all voxels >0 to 1)
+    -thr   : Threshold image (zero voxels below following number)
+    -uthr  : Upper threshold (zero voxels above following number)
+
+    Example:
+    python BVmaths.py image1.nii.gz -mul image2.nii.gz -add 5 -bin out.nii.gz
+    python BVmaths.py image1.nii.gz -thr 2.0 -uthr 3.5 -bin out.nii.gz
 
 For detailed usage instructions, run:
 
