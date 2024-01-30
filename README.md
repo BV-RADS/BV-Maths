@@ -15,7 +15,7 @@ One advantage is that it runs directoly on python using only numpy and nibabel l
 
 To use BVmaths, you only need to have a working ´Python´ with ´nibabel´ and ´numpy´ libraries available.  
 
-However, if you also plan on using the rest of our [BV-RADS tools]{https://github.com/BV-RADS/BV-BIDS}, we recommend installing the full environment with the necessary libraries: 
+However, if you also plan on using the rest of our [BV-RADS tools](https://github.com/BV-RADS/BV-BIDS), we recommend installing the full environment with the necessary libraries: 
 
 You will need to have Conda installed. You can use either Anaconda or Miniconda.
 
