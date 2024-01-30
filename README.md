@@ -3,9 +3,11 @@
 
 BVmaths is a Python utility for performing arithmetic and thresholding operations on NIFTI (.nii.gz) files, similar to the functionality offered by FSL's `fslmaths` tool.
 
+One advantage is that it runs directoly on python using only numpy and nibabel libraries, and can therefore be run on Windows easily.
+
 ## Features
 
-- Supports a variety of operations such as addition, subtraction, multiplication, division, binarization, thresholding, and upper thresholding.
+- Supports of operations such as addition, subtraction, multiplication, division, binarization, thresholding, and upper thresholding.
 - Automatically appends `.nii.gz` extension to filenames if not provided.
 - Command-line interface for easy integration into processing pipelines.
 
