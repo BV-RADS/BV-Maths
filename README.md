@@ -56,11 +56,3 @@ For detailed usage instructions, run:
 ```
 python BVmaths.py -h
 ```
-
-## Contributing
-
-Contributions to BVmaths are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) for details on how to contribute to the project.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
