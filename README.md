@@ -13,7 +13,7 @@ One advantage is that it runs directoly on python using only numpy and nibabel l
 
 ## Installation
 
-To use BVmaths, you only need to have a working ´Python´ with ´nibabel´ and ´numpy´ libraries available.  
+To use BVmaths, you only need to have a working `Python` with `nibabel` and `numpy` libraries available.  
 
 However, if you also plan on using the rest of our [BV-RADS tools](https://github.com/BV-RADS/BV-BIDS), we recommend installing the full environment with the necessary libraries: 
 
@@ -50,7 +50,7 @@ conda activate BV-RADS
 
 To use BVmaths, run the script with the desired operation and operands. 
 
-´´´    
+```
     Usage: python BVmaths.py <image.nii.gz> [operations and inputs] <out.nii.gz>
 
     Operations:
@@ -68,6 +68,5 @@ To use BVmaths, run the script with the desired operation and operands.
 
 For detailed usage instructions, run:
 
-```
 python BVmaths.py -h
 ```
