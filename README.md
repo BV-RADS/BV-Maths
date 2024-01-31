@@ -28,7 +28,7 @@ Download and install [Anaconda](https://www.anaconda.com/products/individual) or
 Clone the BVmaths repository from GitHub:
 
 ```
-git clone https://github.com/BV-RADS/BVmaths.git
+git clone https://github.com/BV-RADS/BV-Maths.git
 ```
 
 ### Step 3: Create and Activate Conda Environment
@@ -36,7 +36,7 @@ git clone https://github.com/BV-RADS/BVmaths.git
 Navigate to the cloned repository and create a Conda environment using the `environment.yml` file:
 
 ```
-cd BVmaths
+cd BV-Maths
 conda env create -f environment.yml
 ```
 
